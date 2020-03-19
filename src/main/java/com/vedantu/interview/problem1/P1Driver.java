@@ -17,6 +17,7 @@ import org.apache.hadoop.util.ToolRunner;
  * Created at 07/03/19
  */
 public class P1Driver extends Configured implements Tool {
+    //Testing local git branching through terminal
     public static void main(String[] args) throws Exception {
         ToolRunner.run(new P1Driver(), args);
     }
